@@ -12,11 +12,6 @@ const todo = {
 
 const url = "https://jsonplaceholder.typicode.com/todos/1"
 
-test("http", async (): Promise<void> => {
-  const out = await Http.http([], url)
-  expect(out).toEqual(todo)
-})
-
 test("http error", (): Promise<any> => {
   expect.assertions(1)
   return Http
@@ -28,15 +23,10 @@ test("http error", (): Promise<any> => {
     .catch((): boolean => expect(true).toBe(true))
 })
 
-test("http full", async (): Promise<void> => {
-  const out = await Http.http([], url, { full: true })
-  expect(out["body"]).toEqual(todo)
-  expect(out["ok"]).toBe(true)
-  expect(out["status"]).toBe(200)
-  expect(out["url"]).toBe(url)
-})
-
-test("http text", async (): Promise<void> => {
-  const out = await Http.http(null, url, { text: true })
-  expect(out).toEqual(expect.any(String))
+test("http", async (): Promise<void> => {
+  const out = await Http.http([], url)
+  expect(out.body).toEqual(todo)
+  expect(out.ok).toBe(true)
+  expect(out.status).toBe(200)
+  expect(out.url).toBe(url)
 })

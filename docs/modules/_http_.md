@@ -13,22 +13,11 @@
 ### Interfaces
 
 * [HttpArg](../interfaces/_http_.httparg.md)
-
-### Type aliases
-
-* [HttpReturn](_http_.md#httpreturn)
+* [HttpOutput](../interfaces/_http_.httpoutput.md)
 
 ### Variables
 
 * [fetch](_http_.md#const-fetch)
-
-## Type aliases
-
-###  HttpReturn
-
-Ƭ **HttpReturn**: *string | object*
-
-Defined in http.ts:14
 
 ## Variables
 

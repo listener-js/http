@@ -18,7 +18,6 @@
 * [cache](_http_.httparg.md#optional-cache)
 * [credentials](_http_.httparg.md#optional-credentials)
 * [error](_http_.httparg.md#optional-error)
-* [full](_http_.httparg.md#optional-full)
 * [headers](_http_.httparg.md#optional-headers)
 * [integrity](_http_.httparg.md#optional-integrity)
 * [keepalive](_http_.httparg.md#optional-keepalive)
@@ -69,14 +68,6 @@ ___
 • **error**? : *boolean*
 
 Defined in http.ts:8
-
-___
-
-### `Optional` full
-
-• **full**? : *boolean*
-
-Defined in http.ts:9
 
 ___
 
@@ -174,7 +165,7 @@ ___
 
 • **store**? : *boolean*
 
-Defined in http.ts:10
+Defined in http.ts:9
 
 ___
 
@@ -182,7 +173,7 @@ ___
 
 • **text**? : *boolean*
 
-Defined in http.ts:11
+Defined in http.ts:10
 
 ___
 

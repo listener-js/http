@@ -25,15 +25,15 @@
 
 ▪ **listeners**: *string[]* =  ["http", "httpError"]
 
-Defined in http.ts:17
+Defined in http.ts:21
 
 ## Methods
 
 ### `Static` http
 
-▸ **http**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_http_.httparg.md)): *`Promise<HttpReturn>`*
+▸ **http**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_http_.httparg.md)): *`Promise<HttpOutput>`*
 
-Defined in http.ts:19
+Defined in http.ts:23
 
 **Parameters:**
 
@@ -43,7 +43,7 @@ Name | Type | Default |
 `url` | string | - |
 `arg` | [HttpArg](../interfaces/_http_.httparg.md) |  {} |
 
-**Returns:** *`Promise<HttpReturn>`*
+**Returns:** *`Promise<HttpOutput>`*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **httpError**(`id`: string[], `error`: string): *string*
 
-Defined in http.ts:58
+Defined in http.ts:60
 
 **Parameters:**
 

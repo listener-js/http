@@ -6,19 +6,23 @@ const fetch = (
 
 export interface HttpArg extends RequestInit {
   error?: boolean
-  full?: boolean
   store?: boolean
   text?: boolean
 }
 
-export type HttpReturn = string | object
+interface HttpOutput {
+  body: string
+  ok: boolean
+  status: number
+  url: string
+}
 
 export class Http {
   public static listeners = ["http", "httpError"]
 
   public static async http(
     id: string[], url: string, arg: HttpArg = {}
-  ): Promise<HttpReturn> {
+  ): Promise<HttpOutput> {
     const r = await fetch(url, arg)
       .catch((err): void => {
         this.httpError(id, err)
@@ -49,9 +53,7 @@ export class Http {
         body = await r.json()
       }
 
-      body = arg.full ? { body, ok, status, url } : body
-
-      return body
+      return { body, ok, status, url }
     }
   }
 
