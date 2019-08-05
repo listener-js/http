@@ -23,7 +23,7 @@
 
 • **body**: *string*
 
-Defined in http.ts:14
+*Defined in [http.ts:14](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L14)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **ok**: *boolean*
 
-Defined in http.ts:15
+*Defined in [http.ts:15](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L15)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **status**: *number*
 
-Defined in http.ts:16
+*Defined in [http.ts:16](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L16)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **url**: *string*
 
-Defined in http.ts:17
+*Defined in [http.ts:17](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L17)*
