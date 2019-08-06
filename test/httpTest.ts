@@ -1,8 +1,8 @@
-import { Http } from "../"
+import { http } from "../"
 import { listener } from "@listener-js/listener"
 import { Log } from "@listener-js/log"
 
-listener({ Http, Log }, { logAll: true })
+listener({ Log, http }, { logAll: true })
 
 const todo = {
   completed: false,
@@ -13,21 +13,21 @@ const todo = {
 
 const url = "https://jsonplaceholder.typicode.com/todos/1"
 
-test("http error", (): Promise<any> => {
+test("fetch", async (): Promise<void> => {
+  const out = await http.fetch([], url)
+  expect(out.body).toEqual(todo)
+  expect(out.ok).toBe(true)
+  expect(out.status).toBe(200)
+  expect(out.url).toBe(url)
+})
+
+test("fetch error", (): Promise<any> => {
   expect.assertions(1)
-  return Http
-    .http(
+  return http
+    .fetch(
       ["todos"],
       "http://does-not-exist",
       { error: true }
     )
     .catch((): boolean => expect(true).toBe(true))
-})
-
-test("http", async (): Promise<void> => {
-  const out = await Http.http([], url)
-  expect(out.body).toEqual(todo)
-  expect(out.ok).toBe(true)
-  expect(out.status).toBe(200)
-  expect(out.url).toBe(url)
 })

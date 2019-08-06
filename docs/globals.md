@@ -9,3 +9,4 @@
 ### External modules
 
 * ["http"](modules/_http_.md)
+* ["types"](modules/_types_.md)

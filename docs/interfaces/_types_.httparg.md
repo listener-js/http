@@ -1,6 +1,6 @@
 > **[http](../README.md)**
 
-[Globals](../globals.md) / ["http"](../modules/_http_.md) / [HttpArg](_http_.httparg.md) /
+[Globals](../globals.md) / ["types"](../modules/_types_.md) / [HttpArg](_types_.httparg.md) /
 
 # Interface: HttpArg
 
@@ -14,22 +14,22 @@
 
 ### Properties
 
-* [body](_http_.httparg.md#optional-body)
-* [cache](_http_.httparg.md#optional-cache)
-* [credentials](_http_.httparg.md#optional-credentials)
-* [error](_http_.httparg.md#optional-error)
-* [headers](_http_.httparg.md#optional-headers)
-* [integrity](_http_.httparg.md#optional-integrity)
-* [keepalive](_http_.httparg.md#optional-keepalive)
-* [method](_http_.httparg.md#optional-method)
-* [mode](_http_.httparg.md#optional-mode)
-* [redirect](_http_.httparg.md#optional-redirect)
-* [referrer](_http_.httparg.md#optional-referrer)
-* [referrerPolicy](_http_.httparg.md#optional-referrerpolicy)
-* [signal](_http_.httparg.md#optional-signal)
-* [store](_http_.httparg.md#optional-store)
-* [text](_http_.httparg.md#optional-text)
-* [window](_http_.httparg.md#optional-window)
+* [body](_types_.httparg.md#optional-body)
+* [cache](_types_.httparg.md#optional-cache)
+* [credentials](_types_.httparg.md#optional-credentials)
+* [error](_types_.httparg.md#optional-error)
+* [headers](_types_.httparg.md#optional-headers)
+* [integrity](_types_.httparg.md#optional-integrity)
+* [keepalive](_types_.httparg.md#optional-keepalive)
+* [method](_types_.httparg.md#optional-method)
+* [mode](_types_.httparg.md#optional-mode)
+* [redirect](_types_.httparg.md#optional-redirect)
+* [referrer](_types_.httparg.md#optional-referrer)
+* [referrerPolicy](_types_.httparg.md#optional-referrerpolicy)
+* [signal](_types_.httparg.md#optional-signal)
+* [store](_types_.httparg.md#optional-store)
+* [text](_types_.httparg.md#optional-text)
+* [window](_types_.httparg.md#optional-window)
 
 ## Properties
 
@@ -67,7 +67,7 @@ ___
 
 • **error**? : *boolean*
 
-Defined in http.ts:8
+Defined in types.ts:2
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 • **store**? : *boolean*
 
-Defined in http.ts:9
+Defined in types.ts:3
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 • **text**? : *boolean*
 
-Defined in http.ts:10
+Defined in types.ts:4
 
 ___
 

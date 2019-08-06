@@ -1,26 +1,14 @@
 import * as fetchImport from "isomorphic-unfetch"
+import { HttpArg, HttpOutput } from "./types"
 
 const fetch = (
   fetchImport.default || fetchImport
 ) as typeof fetchImport.default
 
-export interface HttpArg extends RequestInit {
-  error?: boolean
-  store?: boolean
-  text?: boolean
-}
-
-interface HttpOutput {
-  body: string
-  ok: boolean
-  status: number
-  url: string
-}
-
 export class Http {
-  public static listeners = ["http", "httpError"]
+  public listeners = ["http", "httpError"]
 
-  public static async http(
+  public async fetch(
     id: string[], url: string, arg: HttpArg = {}
   ): Promise<HttpOutput> {
     const r = await fetch(url, arg)
@@ -57,9 +45,11 @@ export class Http {
     }
   }
 
-  public static httpError(
+  public httpError(
     id: string[], error: string
   ): string {
     return error
   }
 }
+
+export const http = new Http()

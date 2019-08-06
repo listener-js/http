@@ -14,10 +14,10 @@ npm install @listener-js/listener @listener-js/http
 
 ```ts
 import { listener } from "@listener-js/listener"
-import { Http } from "@listener-js/http"
+import { http } from "@listener-js/http"
 
-listener({ Http })
+listener({ http })
 
 const url = "https://jsonplaceholder.typicode.com/todos/1"
-const { body, ok, status, url } = await Http.http([], url)
+const { body, ok, status, url } = await http.fetch([], url)
 ```

@@ -10,14 +10,10 @@
 
 * [Http](../classes/_http_.http.md)
 
-### Interfaces
-
-* [HttpArg](../interfaces/_http_.httparg.md)
-* [HttpOutput](../interfaces/_http_.httpoutput.md)
-
 ### Variables
 
 * [fetch](_http_.md#const-fetch)
+* [http](_http_.md#const-http)
 
 ## Variables
 
@@ -27,4 +23,12 @@
   fetchImport.default || fetchImport
 ) as typeof fetchImport.default
 
-Defined in http.ts:3
+Defined in http.ts:4
+
+___
+
+### `Const` http
+
+• **http**: *[Http](../classes/_http_.http.md)* =  new Http()
+
+Defined in http.ts:55

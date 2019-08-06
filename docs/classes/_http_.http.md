@@ -12,28 +12,28 @@
 
 ### Properties
 
-* [listeners](_http_.http.md#static-listeners)
+* [listeners](_http_.http.md#listeners)
 
 ### Methods
 
-* [http](_http_.http.md#static-http)
-* [httpError](_http_.http.md#static-httperror)
+* [fetch](_http_.http.md#fetch)
+* [httpError](_http_.http.md#httperror)
 
 ## Properties
 
-### `Static` listeners
+###  listeners
 
-▪ **listeners**: *string[]* =  ["http", "httpError"]
+• **listeners**: *string[]* =  ["http", "httpError"]
 
-Defined in http.ts:21
+Defined in http.ts:9
 
 ## Methods
 
-### `Static` http
+###  fetch
 
-▸ **http**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_http_.httparg.md)): *`Promise<HttpOutput>`*
+▸ **fetch**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_types_.httparg.md)): *`Promise<HttpOutput>`*
 
-Defined in http.ts:23
+Defined in http.ts:11
 
 **Parameters:**
 
@@ -41,17 +41,17 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `id` | string[] | - |
 `url` | string | - |
-`arg` | [HttpArg](../interfaces/_http_.httparg.md) |  {} |
+`arg` | [HttpArg](../interfaces/_types_.httparg.md) |  {} |
 
 **Returns:** *`Promise<HttpOutput>`*
 
 ___
 
-### `Static` httpError
+###  httpError
 
 ▸ **httpError**(`id`: string[], `error`: string): *string*
 
-Defined in http.ts:60
+Defined in http.ts:48
 
 **Parameters:**
 
