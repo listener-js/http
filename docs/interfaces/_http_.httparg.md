@@ -67,7 +67,7 @@ ___
 
 • **error**? : *boolean*
 
-*Defined in [http.ts:8](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L8)*
+Defined in http.ts:8
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 • **store**? : *boolean*
 
-*Defined in [http.ts:9](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L9)*
+Defined in http.ts:9
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 • **text**? : *boolean*
 
-*Defined in [http.ts:10](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L10)*
+Defined in http.ts:10
 
 ___
 

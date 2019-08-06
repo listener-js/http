@@ -25,7 +25,7 @@
 
 ▪ **listeners**: *string[]* =  ["http", "httpError"]
 
-*Defined in [http.ts:21](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L21)*
+Defined in http.ts:21
 
 ## Methods
 
@@ -33,7 +33,7 @@
 
 ▸ **http**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_http_.httparg.md)): *`Promise<HttpOutput>`*
 
-*Defined in [http.ts:23](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L23)*
+Defined in http.ts:23
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **httpError**(`id`: string[], `error`: string): *string*
 
-*Defined in [http.ts:60](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L60)*
+Defined in http.ts:60
 
 **Parameters:**
 

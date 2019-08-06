@@ -27,4 +27,4 @@
   fetchImport.default || fetchImport
 ) as typeof fetchImport.default
 
-*Defined in [http.ts:3](https://github.com/listener-js/http/blob/3722f4b/src/http.ts#L3)*
+Defined in http.ts:3
