@@ -23,7 +23,7 @@
 
 ###  listeners
 
-• **listeners**: *string[]* =  ["http", "httpError"]
+• **listeners**: *string[]* =  ["fetch", "httpError"]
 
 Defined in http.ts:9
 

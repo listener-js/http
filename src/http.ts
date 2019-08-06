@@ -6,7 +6,7 @@ const fetch = (
 ) as typeof fetchImport.default
 
 export class Http {
-  public listeners = ["http", "httpError"]
+  public listeners = ["fetch", "httpError"]
 
   public async fetch(
     id: string[], url: string, arg: HttpArg = {}
