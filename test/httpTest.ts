@@ -1,8 +1,8 @@
 import { http } from "../"
 import { listener } from "@listener-js/listener"
-import { Log } from "@listener-js/log"
+import { log } from "@listener-js/log"
 
-listener({ Log, http }, { logAll: true })
+listener({ http, log }, { logAll: true })
 
 const todo = {
   completed: false,
