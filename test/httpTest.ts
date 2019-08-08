@@ -2,7 +2,7 @@ import { http } from "../"
 import { listener } from "@listener-js/listener"
 import { log } from "@listener-js/log"
 
-listener({ http, log }, { logAll: true })
+listener({ http, log })
 
 const todo = {
   completed: false,
