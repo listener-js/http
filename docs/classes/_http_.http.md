@@ -1,4 +1,4 @@
-> **[http](../README.md)**
+> **[@listener-js/http](../README.md)**
 
 [Globals](../globals.md) / ["http"](../modules/_http_.md) / [Http](_http_.http.md) /
 

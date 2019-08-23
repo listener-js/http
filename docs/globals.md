@@ -1,8 +1,8 @@
-> **[http](README.md)**
+> **[@listener-js/http](README.md)**
 
 [Globals](globals.md) /
 
-# http
+# @listener-js/http
 
 ## Index
 

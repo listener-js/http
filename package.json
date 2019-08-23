@@ -1,11 +1,13 @@
 {
-  "name": "http",
+  "name": "@listener-js/http",
   "version": "0.0.1",
-  "description": "",
+  "description": "Listener universal http fetch",
   "keywords": [
-    ""
+    "listener",
+    "http",
+    "universal"
   ],
-  "author": " <>",
+  "author": "Listener <emit@listener.events>",
   "main": "dist/http.js",
   "repository": {
     "type": "git",
