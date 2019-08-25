@@ -2,7 +2,7 @@
 
 [Globals](globals.md) /
 
-# http
+# @listener-js/http
 
 Listener universal http fetch
 
