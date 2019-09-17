@@ -1,6 +1,4 @@
-> **[@listener-js/http](../README.md)**
-
-[Globals](../globals.md) / ["http"](_http_.md) /
+[@listener-js/http](../README.md) › [Globals](../globals.md) › ["http"](_http_.md)
 
 # External module: "http"
 
@@ -19,9 +17,8 @@
 
 ### `Const` fetch
 
-• **fetch**: *`fetch`* =  (
-  fetchImport.default || fetchImport
-) as typeof fetchImport.default
+• **fetch**: *fetch* =  (fetchImport.default ||
+  fetchImport) as typeof fetchImport.default
 
 Defined in http.ts:4
 
@@ -31,4 +28,4 @@ ___
 
 • **http**: *[Http](../classes/_http_.http.md)* =  new Http()
 
-Defined in http.ts:55
+Defined in http.ts:54

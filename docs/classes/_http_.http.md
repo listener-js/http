@@ -1,6 +1,4 @@
-> **[@listener-js/http](../README.md)**
-
-[Globals](../globals.md) / ["http"](../modules/_http_.md) / [Http](_http_.http.md) /
+[@listener-js/http](../README.md) › [Globals](../globals.md) › ["http"](../modules/_http_.md) › [Http](_http_.http.md)
 
 # Class: Http
 
@@ -25,15 +23,15 @@
 
 • **listeners**: *string[]* =  ["fetch", "httpError"]
 
-Defined in http.ts:9
+Defined in http.ts:8
 
 ## Methods
 
 ###  fetch
 
-▸ **fetch**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_types_.httparg.md)): *`Promise<HttpOutput>`*
+▸ **fetch**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_types_.httparg.md)): *Promise‹[HttpOutput](../interfaces/_types_.httpoutput.md)›*
 
-Defined in http.ts:11
+Defined in http.ts:10
 
 **Parameters:**
 
@@ -43,7 +41,7 @@ Name | Type | Default |
 `url` | string | - |
 `arg` | [HttpArg](../interfaces/_types_.httparg.md) |  {} |
 
-**Returns:** *`Promise<HttpOutput>`*
+**Returns:** *Promise‹[HttpOutput](../interfaces/_types_.httpoutput.md)›*
 
 ___
 
@@ -51,7 +49,7 @@ ___
 
 ▸ **httpError**(`id`: string[], `error`: string): *string*
 
-Defined in http.ts:48
+Defined in http.ts:49
 
 **Parameters:**
 

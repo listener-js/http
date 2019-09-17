@@ -1,6 +1,4 @@
-> **[@listener-js/http](../README.md)**
-
-[Globals](../globals.md) / ["types"](../modules/_types_.md) / [HttpOutput](_types_.httpoutput.md) /
+[@listener-js/http](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [HttpOutput](_types_.httpoutput.md)
 
 # Interface: HttpOutput
 

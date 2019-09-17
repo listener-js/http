@@ -1,6 +1,4 @@
-> **[@listener-js/http](../README.md)**
-
-[Globals](../globals.md) / ["types"](_types_.md) /
+[@listener-js/http](../README.md) › [Globals](../globals.md) › ["types"](_types_.md)
 
 # External module: "types"
 

@@ -8,7 +8,7 @@ const todo = {
   completed: false,
   id: 1,
   title: "delectus aut autem",
-  userId: 1
+  userId: 1,
 }
 
 const url = "https://jsonplaceholder.typicode.com/todos/1"
@@ -24,10 +24,8 @@ test("fetch", async (): Promise<void> => {
 test("fetch error", (): Promise<any> => {
   expect.assertions(1)
   return http
-    .fetch(
-      ["todos"],
-      "http://does-not-exist",
-      { error: true }
-    )
+    .fetch(["todos"], "http://does-not-exist", {
+      error: true,
+    })
     .catch((): boolean => expect(true).toBe(true))
 })

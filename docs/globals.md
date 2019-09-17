@@ -1,6 +1,4 @@
-> **[@listener-js/http](README.md)**
-
-[Globals](globals.md) /
+[@listener-js/http](README.md) › [Globals](globals.md)
 
 # @listener-js/http
 

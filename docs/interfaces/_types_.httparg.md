@@ -1,14 +1,12 @@
-> **[@listener-js/http](../README.md)**
-
-[Globals](../globals.md) / ["types"](../modules/_types_.md) / [HttpArg](_types_.httparg.md) /
+[@listener-js/http](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [HttpArg](_types_.httparg.md)
 
 # Interface: HttpArg
 
 ## Hierarchy
 
-* `RequestInit`
+* RequestInit
 
-  * **HttpArg**
+  ↳ **HttpArg**
 
 ## Index
 
@@ -35,31 +33,31 @@
 
 ### `Optional` body
 
-• **body**? : *`BodyInit` | null*
+• **body**? : *BodyInit | null*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1413
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1413
 
 ___
 
 ### `Optional` cache
 
-• **cache**? : *`RequestCache`*
+• **cache**? : *RequestCache*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1414
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1414
 
 ___
 
 ### `Optional` credentials
 
-• **credentials**? : *`RequestCredentials`*
+• **credentials**? : *RequestCredentials*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1415
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1415
 
 ___
 
@@ -73,11 +71,11 @@ ___
 
 ### `Optional` headers
 
-• **headers**? : *`HeadersInit`*
+• **headers**? : *HeadersInit*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1416
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1416
 
 ___
 
@@ -87,7 +85,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1417
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1417
 
 ___
 
@@ -97,7 +95,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1418
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1418
 
 ___
 
@@ -107,27 +105,27 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1419
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1419
 
 ___
 
 ### `Optional` mode
 
-• **mode**? : *`RequestMode`*
+• **mode**? : *RequestMode*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1420
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1420
 
 ___
 
 ### `Optional` redirect
 
-• **redirect**? : *`RequestRedirect`*
+• **redirect**? : *RequestRedirect*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1421
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1421
 
 ___
 
@@ -137,27 +135,27 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1422
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1422
 
 ___
 
 ### `Optional` referrerPolicy
 
-• **referrerPolicy**? : *`ReferrerPolicy`*
+• **referrerPolicy**? : *ReferrerPolicy*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1423
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1423
 
 ___
 
 ### `Optional` signal
 
-• **signal**? : *`AbortSignal` | null*
+• **signal**? : *AbortSignal | null*
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1424
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1424
 
 ___
 
@@ -183,4 +181,4 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typescript/lib/lib.dom.d.ts:1425
+Defined in /Users/winton/Dropbox/cyclops/projects3/@listener-js/http/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:1425
