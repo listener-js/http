@@ -8,36 +8,24 @@
 
 ## Index
 
-### Properties
-
-* [listeners](_http_.http.md#listeners)
-
 ### Methods
 
 * [fetch](_http_.http.md#fetch)
 * [httpError](_http_.http.md#httperror)
 
-## Properties
-
-###  listeners
-
-• **listeners**: *string[]* =  ["fetch", "httpError"]
-
-Defined in http.ts:8
-
 ## Methods
 
 ###  fetch
 
-▸ **fetch**(`id`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_types_.httparg.md)): *Promise‹[HttpOutput](../interfaces/_types_.httpoutput.md)›*
+▸ **fetch**(`lid`: string[], `url`: string, `arg`: [HttpArg](../interfaces/_types_.httparg.md)): *Promise‹[HttpOutput](../interfaces/_types_.httpoutput.md)›*
 
-Defined in http.ts:10
+Defined in http.ts:8
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`id` | string[] | - |
+`lid` | string[] | - |
 `url` | string | - |
 `arg` | [HttpArg](../interfaces/_types_.httparg.md) |  {} |
 
@@ -47,15 +35,15 @@ ___
 
 ###  httpError
 
-▸ **httpError**(`id`: string[], `error`: string): *string*
+▸ **httpError**(`lid`: string[], `error`: string): *string*
 
-Defined in http.ts:49
+Defined in http.ts:47
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`id` | string[] |
+`lid` | string[] |
 `error` | string |
 
 **Returns:** *string*

@@ -5,15 +5,13 @@ const fetch = (fetchImport.default ||
   fetchImport) as typeof fetchImport.default
 
 export class Http {
-  public listeners = ["fetch", "httpError"]
-
   public async fetch(
-    id: string[],
+    lid: string[],
     url: string,
     arg: HttpArg = {}
   ): Promise<HttpOutput> {
     const r = await fetch(url, arg).catch((err): void => {
-      this.httpError(id, err)
+      this.httpError(lid, err)
 
       if (arg.error) {
         throw new Error(err)
@@ -31,7 +29,7 @@ export class Http {
           " failed, status code: " +
           status.toString()
 
-        this.httpError(id, err)
+        this.httpError(lid, err)
 
         if (arg.error) {
           throw new Error(err)
@@ -46,9 +44,9 @@ export class Http {
     }
   }
 
-  public httpError(id: string[], error: string): string {
+  public httpError(lid: string[], error: string): string {
     return error
   }
 }
 
-export const http = new Http()
+export default new Http()

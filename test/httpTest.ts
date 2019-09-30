@@ -1,8 +1,8 @@
-import { http } from "../"
-import { listener } from "@listener-js/listener"
-import { log } from "@listener-js/log"
+import http from "../"
+import { load } from "@listener-js/listener"
+import log from "@listener-js/log"
 
-listener([], { http, log })
+load([], { http, log })
 
 const todo = {
   completed: false,

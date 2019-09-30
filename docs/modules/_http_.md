@@ -11,7 +11,6 @@
 ### Variables
 
 * [fetch](_http_.md#const-fetch)
-* [http](_http_.md#const-http)
 
 ## Variables
 
@@ -21,11 +20,3 @@
   fetchImport) as typeof fetchImport.default
 
 Defined in http.ts:4
-
-___
-
-### `Const` http
-
-• **http**: *[Http](../classes/_http_.http.md)* =  new Http()
-
-Defined in http.ts:54
